@@ -1956,6 +1956,10 @@ class AutoModerationTriggerType(IntEnum):
 
     .. versionadded:: 2.3
     """
+    member_profile = 6
+    """This rule checks if member profile contains words from a user defined list of keywords
+
+    .. versionadded:: 3.0"""
 
 
 class KeywordPresetType(IntEnum):
